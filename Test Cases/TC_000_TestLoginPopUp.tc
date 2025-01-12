@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_000_TestLoginPopUp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>784f3ea4-01d4-4195-bec5-0a2e6955b926</testCaseGuid>
+</TestCaseEntity>

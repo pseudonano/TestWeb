@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_Masuk</name>
+   <tag></tag>
+   <elementGuidId>ffcf3292-0e12-40b4-bb26-7cd377c96501</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h3.css-14sozj8-unf-heading.e1qvo2ff3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Komputer &amp; Laptop'])[1]/following::h3[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>d5deadb8-4987-4baf-a15a-fa55ca4db4cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-unify</name>
+      <type>Main</type>
+      <value>Typography</value>
+      <webElementGuid>fb03dd9c-b575-40f0-bc99-457f287073c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-14sozj8-unf-heading e1qvo2ff3</value>
+      <webElementGuid>c7f789c9-5939-4055-98f2-3bf5e5139ddd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masuk</value>
+      <webElementGuid>4018119b-dfa0-4dc3-944a-b7ec2b7a5405</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;css-1g5w2rw&quot;]/div[6]/div[@class=&quot;css-y344pu e1nc1fa20&quot;]/article[@class=&quot;css-1f0x5lg-unf-modal e1nc1fa21&quot;]/div[@class=&quot;css-18qem4c e1nc1fa22&quot;]/div[@class=&quot;css-9z1sps&quot;]/h3[@class=&quot;css-14sozj8-unf-heading e1qvo2ff3&quot;]</value>
+      <webElementGuid>aa87f813-ce50-4f4a-af51-09c0f9ad022d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Komputer &amp; Laptop'])[1]/following::h3[1]</value>
+      <webElementGuid>deab39eb-97e5-49fd-a955-74cec9597390</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keuangan'])[1]/following::h3[1]</value>
+      <webElementGuid>6b59d0e8-08dc-409e-b97d-f7c5bc9ad711</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/preceding::h3[1]</value>
+      <webElementGuid>7ec84c5b-3475-4ac1-8e9a-7ab3b20636a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP atau Email'])[1]/preceding::h3[1]</value>
+      <webElementGuid>4447c794-da9b-4791-b9c8-664f0121f6ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>5cc81ffb-9a40-4214-b57e-38f193d3bb82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Masuk' or . = 'Masuk')]</value>
+      <webElementGuid>671260cd-f8c2-4ea8-a7e1-d1680b348ecc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
