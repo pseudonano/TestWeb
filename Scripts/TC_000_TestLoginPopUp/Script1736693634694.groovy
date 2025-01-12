@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.tokopedia.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Situs Jual Beli Online Terlengkap, Mud_c2d1e5/button_Masuk'))
+WebUI.click(findTestObject('Object Repository/HomePage_Tokopedia/button_Masuk'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Situs Jual Beli Online Terlengkap, Mud_c2d1e5/h3_Masuk'), 
+WebUI.verifyElementText(findTestObject('Object Repository/HomePage_Tokopedia/h3_Masuk'), 
     'Masuk',FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Situs Jual Beli Online Terlengkap, Mud_c2d1e5/button_closeModal'),FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/HomePage_Tokopedia/button_closeModal'),FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 
