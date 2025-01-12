@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Masuk ke Tokopedia</name>
+   <tag></tag>
+   <elementGuidId>36e2dcb4-899f-436f-a592-ba4a54934ff6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.css-1dmmzzh</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__skipper']/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9f7c6b36-78c5-47b0-b1d4-a5f9c650d8c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1dmmzzh</value>
+      <webElementGuid>626f13d0-852e-4994-9b05-ee10b69020e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Masuk ke Tokopedia</value>
+      <webElementGuid>9cc5ee98-5e0e-433b-a3ec-91ff840f2ec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__skipper&quot;)/div[@class=&quot;css-b1khel&quot;]/div[@class=&quot;css-kqvkc7&quot;]/div[@class=&quot;css-8w8z3o&quot;]/div[@class=&quot;content css-1agkioz&quot;]/div[@class=&quot;css-gw5fe0&quot;]/span[@class=&quot;css-1dmmzzh&quot;]</value>
+      <webElementGuid>16ecf2c2-115a-495d-9cab-be37daba8f8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__skipper']/div/div/div/div/div/span</value>
+      <webElementGuid>ec697a38-f585-4a3a-a385-d32dec8dc14f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/preceding::span[1]</value>
+      <webElementGuid>e19ef9ee-b064-4472-a7b0-14c9cfcc9fbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP atau Email'])[1]/preceding::span[1]</value>
+      <webElementGuid>7ef148f9-f245-4597-8c41-14083081a78d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Masuk ke Tokopedia']/parent::*</value>
+      <webElementGuid>b25542e6-dd42-4a60-84ae-4ab34d28b8b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>9792c048-d566-4264-b0b6-b542d0ed2732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Masuk ke Tokopedia' or . = 'Masuk ke Tokopedia')]</value>
+      <webElementGuid>969d0922-093a-4431-800a-f002694fc480</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

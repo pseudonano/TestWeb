@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>selectNominal_Button</name>
+   <tag></tag>
+   <elementGuidId>15df94f3-006f-4d09-8245-3a82b3fa9fc3</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@role='dialog'] //div //ul //li[@data-testid='Rp6.500'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7b0ca44a-ecee-4b57-be8e-a920768040b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-nzq9o0</value>
+      <webElementGuid>6272543f-5cfa-40a6-a34d-e77fd1d8a58d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-unf</name>
+      <type>Main</type>
+      <value>select-menu-item-btn</value>
+      <webElementGuid>bd4ac0e2-77c5-4be6-a445-b97a990cfa12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-has-subitem</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>7cf87887-98f1-4ec7-8d44-e7aafd66815d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-text</name>
+      <type>Main</type>
+      <value>5.000 - Rp6.500</value>
+      <webElementGuid>4ddbe735-0f23-4b83-afbe-6f54478e4c11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5.000 - Rp6.500</value>
+      <webElementGuid>b0d3a795-1241-4445-8e74-dbf554fc6a5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[5]/div[@class=&quot;css-qxcafz e17suhym1&quot;]/div[@class=&quot;css-nb36dx e83okfj4&quot;]/ul[@class=&quot;css-rxgulu&quot;]/li[@class=&quot;css-2s8d6i e83okfj5&quot;]/button[@class=&quot;css-nzq9o0&quot;]</value>
+      <webElementGuid>92bf2b6b-3f65-444f-ab7c-55f1213af8d2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::button[2]</value>
+      <webElementGuid>a2cc420f-c254-48e1-b5ea-e543070bce56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/button</value>
+      <webElementGuid>b3b9c290-ff92-44a6-bc37-9c6c013a8ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '5.000 - Rp6.500' or . = '5.000 - Rp6.500')]</value>
+      <webElementGuid>e4caa9f8-a70a-4fe6-ad0e-bc5df4143ba5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
