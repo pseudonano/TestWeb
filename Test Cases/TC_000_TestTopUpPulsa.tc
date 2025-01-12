@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Top Up pulsa from homepage</description>
+   <name>TC_000_TestTopUpPulsa</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f00245f-4c9d-4737-8532-49d64c9857b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a877a2c-78bd-429a-abcd-a9b7a4c0a5df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>665fec85-6150-49f1-9868-46fba1e40df8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.tokopedia.com/'</defaultValue>
+      <description></description>
+      <id>4a877a2c-78bd-429a-abcd-a9b7a4c0a5df</id>
+      <masked>false</masked>
+      <name>BASE_URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'082220999000'</defaultValue>
+      <description></description>
+      <id>665fec85-6150-49f1-9868-46fba1e40df8</id>
+      <masked>false</masked>
+      <name>PHONE_NUMBER</name>
+   </variable>
+</TestCaseEntity>
