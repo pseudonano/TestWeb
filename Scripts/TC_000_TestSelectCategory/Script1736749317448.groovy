@@ -19,17 +19,28 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(BASE_URL)
 
-WebUI.setText(findTestObject('HomePage_Tokopedia/div_Nomor Telepon'), PHONE_NUMBER)
-
-WebUI.click(findTestObject('HomePage_Tokopedia/button_Nominal'))
-
-WebUI.click(findTestObject('HomePage_Tokopedia/selectNominal_Button'))
-
-WebUI.click(findTestObject('HomePage_Tokopedia/button_Beli'),FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/HomePage_Tokopedia/span_Masuk ke Tokopedia'), "Masuk ke Tokopedia", FailureHandling.STOP_ON_FAILURE)
+//String dataTestId = 'icnHomeDynamicIcon#1'
+
+// Define the dynamic attribute value  
+def definedDataTestId = "icnHomeDynamicIcon#1" 
+println("Using dataTestId: " + definedDataTestId)
+
+// Find the test object using the dynamic attribute  
+def dynamicButton = findTestObject("Object Repository/HomePage_Tokopedia/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
+  
+WebUI.waitForElementPresent(dynamicButton, 10)
+
+// Perform actions on the dynamic button  
+if (WebUI.verifyElementPresent(dynamicButton, 10)) {  
+    WebUI.click(dynamicButton)  
+} else {  
+    println("Dynamic button not found!")  
+}  
+
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
