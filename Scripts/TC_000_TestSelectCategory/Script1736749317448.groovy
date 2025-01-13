@@ -28,7 +28,7 @@ def definedDataTestId = "icnHomeDynamicIcon#1"
 println("Using dataTestId: " + definedDataTestId)
 
 // Find the test object using the dynamic attribute  
-def dynamicButton = findTestObject("Object Repository/HomePage_Tokopedia/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
+def dynamicButton = findTestObject("Object Repository/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
   
 WebUI.waitForElementPresent(dynamicButton, 10)
 
@@ -41,6 +41,8 @@ if (WebUI.verifyElementPresent(dynamicButton, 10)) {
 
 
 WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject("Object Repository/Category_Tokopedia/div_category_checker"), "Kategori", FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
