@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.tokopedia.com/')
+WebUI.openBrowser('https://www.tokopedia.com/')
 
 WebUI.click(findTestObject('Object Repository/HomePage_Tokopedia/button_Masuk'))
 

@@ -6,12 +6,6 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>f7ab6f35-76a1-4b84-90c9-fc0a7a0f54ae</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c9c1fa5f-3642-484f-b64c-061b8d5d236e</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'https://www.tokopedia.com/'</defaultValue>
       <description></description>
