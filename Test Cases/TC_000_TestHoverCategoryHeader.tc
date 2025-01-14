@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test Case to select category from homepage</description>
-   <name>TC_000_TestSelectCategory</name>
+   <description>selecting category from category header</description>
+   <name>TC_000_TestHoverCategoryHeader</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>f7ab6f35-76a1-4b84-90c9-fc0a7a0f54ae</testCaseGuid>
+   <testCaseGuid>5b644a0b-097d-4062-9083-da417c9e552c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c9c1fa5f-3642-484f-b64c-061b8d5d236e</variableId>
+      <variableId>57ef81b6-f36d-42a2-98b4-e3b0a37dc46c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'https://www.tokopedia.com/'</defaultValue>
       <description></description>
-      <id>c9c1fa5f-3642-484f-b64c-061b8d5d236e</id>
+      <id>57ef81b6-f36d-42a2-98b4-e3b0a37dc46c</id>
       <masked>false</masked>
       <name>BASE_URL</name>
    </variable>

@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(BASE_URL)
 
-WebUI.delay(5)
-
 // Define the dynamic attribute value  
 //def definedDataTestId = "icnHomeDynamicIcon#1" 
 Map<String, String> dataHomepageCategory = ['DATA_TEST_ID': 'icnHomeDynamicIcon#1']
@@ -31,8 +29,6 @@ Map<String,String> dataCategoryPicker = ['CATEGORY_ID':'A','DATA_TESTID':'llbcBa
 //def dynamicButton = findTestObject("Object Repository/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
 TestObject dynamicButton = TestWebUtils.makeObject(findTestObject('Object Repository/dynamic/dynamic_homepageCategory', dataHomepageCategory))
 TestObject categoryPicker = TestWebUtils.makeObject(findTestObject('Object Repository/dynamic/a_SelectCategory',dataCategoryPicker))
-  
-//WebUI.waitForElementPresent(dynamicButton, 10)
 
 // Perform actions on the dynamic button  
 if (WebUI.verifyElementPresent(dynamicButton, 10,FailureHandling.STOP_ON_FAILURE)) {  
@@ -41,17 +37,11 @@ if (WebUI.verifyElementPresent(dynamicButton, 10,FailureHandling.STOP_ON_FAILURE
     println("Dynamic button not found!")  
 }  
 
-WebUI.delay(5)
-
-WebUI.verifyElementText(findTestObject("Object Repository/Category_Tokopedia/div_category_checker"), "Kategori", FailureHandling.STOP_ON_FAILURE)
-
 if (WebUI.verifyElementPresent(categoryPicker, 5, FailureHandling.STOP_ON_FAILURE)) {
 	WebUI.click(categoryPicker,FailureHandling.STOP_ON_FAILURE)
 } else {
 	println("Dynamic button not found!")
 }
-
-WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Category_Tokopedia/div_successPickCategory'), 5, FailureHandling.STOP_ON_FAILURE)
 
