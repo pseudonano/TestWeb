@@ -21,28 +21,39 @@ WebUI.openBrowser(BASE_URL)
 
 WebUI.delay(5)
 
-//String dataTestId = 'icnHomeDynamicIcon#1'
-
 // Define the dynamic attribute value  
-def definedDataTestId = "icnHomeDynamicIcon#1" 
-println("Using dataTestId: " + definedDataTestId)
+//def definedDataTestId = "icnHomeDynamicIcon#1" 
+Map<String, String> dataHomepageCategory = ['DATA_TEST_ID': 'icnHomeDynamicIcon#1']
+Map<String,String> dataCategoryPicker = ['CATEGORY_ID':'A','DATA_TESTID':'llbcBaterai&ChargerKamera']
+
 
 // Find the test object using the dynamic attribute  
-def dynamicButton = findTestObject("Object Repository/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
+//def dynamicButton = findTestObject("Object Repository/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
+TestObject dynamicButton = TestWebUtils.makeObject(findTestObject('Object Repository/dynamic/dynamic_homepageCategory', dataHomepageCategory))
+TestObject categoryPicker = TestWebUtils.makeObject(findTestObject('Object Repository/dynamic/a_SelectCategory',dataCategoryPicker))
   
-WebUI.waitForElementPresent(dynamicButton, 10)
+//WebUI.waitForElementPresent(dynamicButton, 10)
 
 // Perform actions on the dynamic button  
-if (WebUI.verifyElementPresent(dynamicButton, 10)) {  
-    WebUI.click(dynamicButton)  
+if (WebUI.verifyElementPresent(dynamicButton, 10,FailureHandling.STOP_ON_FAILURE)) {  
+    WebUI.click(dynamicButton,FailureHandling.STOP_ON_FAILURE)  
 } else {  
     println("Dynamic button not found!")  
 }  
 
-
 WebUI.delay(5)
 
 WebUI.verifyElementText(findTestObject("Object Repository/Category_Tokopedia/div_category_checker"), "Kategori", FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyElementPresent(categoryPicker, 5, FailureHandling.STOP_ON_FAILURE)) {
+	WebUI.click(categoryPicker,FailureHandling.STOP_ON_FAILURE)
+} else {
+	println("Dynamic button not found!")
+}
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Category_Tokopedia/div_successPickCategory'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
