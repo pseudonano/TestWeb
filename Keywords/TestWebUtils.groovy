@@ -21,10 +21,10 @@ import internal.GlobalVariable
 @Keyword
 public class TestWebUtils {
 	public static TestObject makeObject(TestObject to) {
-		if (to == null) {  
-           throw new IllegalArgumentException("TestObject and properties map cannot be null")  
-       }  
-		
+		if (to == null) {
+			throw new IllegalArgumentException("TestObject and properties map cannot be null")
+		}
+
 		return to
 	}
 }
