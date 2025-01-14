@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@data-testid='allCategories']//a[@href='/p/dapur']</value>
+         <value>//div[@data-testid='allCategories']//a[@href='/p/${CATEGORY}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>79d873b6-d1f6-43e7-ac08-34073af8ebf8</webElementGuid>
+      <webElementGuid>3d3f7d4d-688c-487f-85b1-5bcf12d6f1ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/p/dapur</value>
-      <webElementGuid>f329ec33-a208-43c7-8252-dc924f3ab23b</webElementGuid>
+      <webElementGuid>7c5e9878-c578-42b6-bd2d-8c98a0a9e600</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>css-19zjbhc</value>
-      <webElementGuid>cf7ac6a0-c917-4dfc-9fcb-0e588f49b600</webElementGuid>
+      <webElementGuid>2384620e-9e9c-4d92-8efd-ea80205f73a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>showHide#4</value>
-      <webElementGuid>ecb91254-2c05-4eed-a6c5-3e066486d0d5</webElementGuid>
+      <webElementGuid>fe640f6b-867d-4918-aff1-bf6459895394</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Dapur</value>
-      <webElementGuid>6740d5f3-c202-4417-97e9-88455702e8ae</webElementGuid>
+      <webElementGuid>4598425a-0a84-4900-9d90-d20788ff67c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/div[@class=&quot;css-32o8lv e1429ojz2&quot;]/div[@class=&quot;css-11womkr-unf-tab e1429ojz3&quot;]/div[@class=&quot;css-dj3o3l&quot;]/div[@class=&quot;css-103qbjm e1429ojz4&quot;]/a[@class=&quot;css-19zjbhc&quot;]</value>
-      <webElementGuid>b26475df-beff-4d45-b2ae-992fec6832a4</webElementGuid>
+      <webElementGuid>ec31b7c5-a321-4c98-b6e8-da10debc0732</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/p/dapur' and (text() = 'Dapur' or . = 'Dapur')]</value>
-      <webElementGuid>03a2d8b5-78e7-4c51-aab1-fdb4c2564905</webElementGuid>
+      <webElementGuid>34e02594-6659-49a1-b20b-378d26f24c00</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

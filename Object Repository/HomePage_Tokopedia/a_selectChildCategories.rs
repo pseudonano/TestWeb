@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@href = '/p/rumah-tangga/dekorasi/cover-kipas-angin']</value>
+         <value>//a[@href = '/p/${SELECTED_CHILD_CATEGORY}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>96b26716-b90e-47fa-8e73-afb723bf414e</webElementGuid>
+      <webElementGuid>6df88683-9246-4056-a60f-ba0b27a21fba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>categoryNavigation#1</value>
-      <webElementGuid>afcf5082-c2fb-4833-b6f9-59e4459209f3</webElementGuid>
+      <webElementGuid>d25f5a84-b44b-4c71-96b5-e299481c7ece</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/p/rumah-tangga/dekorasi/cover-kipas-angin</value>
-      <webElementGuid>b130ba26-3bb9-46bb-999b-72080f9debec</webElementGuid>
+      <webElementGuid>bc902032-bee1-4dea-92ef-e26d0dea1c78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>css-ges1q2</value>
-      <webElementGuid>627cd5e3-a658-4a5a-91f8-d34707e32917</webElementGuid>
+      <webElementGuid>dd728770-972a-4090-b8af-89d625b1bc06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cover Kipas Angin</value>
-      <webElementGuid>5f3ca685-bd00-4779-8b0f-e6b9056fadb2</webElementGuid>
+      <webElementGuid>9b62f5dd-83be-4b8e-a986-d45063750d2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/div[@class=&quot;css-32o8lv e1429ojz2&quot;]/div[@class=&quot;css-11womkr-unf-tab e1429ojz3&quot;]/div[@class=&quot;css-dj3o3l&quot;]/div[@class=&quot;css-1iefgdn e1429ojz5&quot;]/div[@class=&quot;css-113hzvq&quot;]/div[@class=&quot;css-11p7ov6&quot;]/div[@class=&quot;css-s0g7na&quot;]/div[@class=&quot;css-1owj1eu&quot;]/div[@class=&quot;css-bfgk5q&quot;]/a[@class=&quot;css-ges1q2&quot;]</value>
-      <webElementGuid>e59e206b-9ee7-4386-a9eb-94da4c30c9d8</webElementGuid>
+      <webElementGuid>72dc6236-d185-4353-a29a-d54edb6c44c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/p/rumah-tangga/dekorasi/cover-kipas-angin' and (text() = 'Cover Kipas Angin' or . = 'Cover Kipas Angin')]</value>
-      <webElementGuid>a1f758e1-1e50-481d-9091-bbe48daacfc5</webElementGuid>
+      <webElementGuid>b8938ad3-bdf9-4d22-9798-740136272f13</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
