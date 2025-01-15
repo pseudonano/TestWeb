@@ -19,12 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.tokopedia.com/')
 
-WebUI.click(findTestObject('Object Repository/HomePage_Tokopedia/button_Masuk'))
+WebUI.click(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/button_Masuk'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/HomePage_Tokopedia/h3_Masuk'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/h3_Masuk'), 
     'Masuk',FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/HomePage_Tokopedia/button_closeModal'),FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/button_closeModal'),FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

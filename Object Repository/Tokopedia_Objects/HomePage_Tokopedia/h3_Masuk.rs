@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_headerKategori</name>
+   <name>h3_Masuk</name>
    <tag></tag>
-   <elementGuidId>66cdb1c5-6c5a-4f0a-8267-1b12219290f7</elementGuidId>
+   <elementGuidId>ffcf3292-0e12-40b4-bb26-7cd377c96501</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.css-xml5xq</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Komputer &amp; Laptop'])[1]/following::h3[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@data-testid='btnHeaderCategory']</value>
+         <key>CSS</key>
+         <value>h3.css-14sozj8-unf-heading.e1qvo2ff3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,95 +22,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>7b124889-9d0d-448f-8964-581158980fd7</webElementGuid>
+      <value>h3</value>
+      <webElementGuid>d5deadb8-4987-4baf-a15a-fa55ca4db4cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-unify</name>
+      <type>Main</type>
+      <value>Typography</value>
+      <webElementGuid>fb03dd9c-b575-40f0-bc99-457f287073c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-xml5xq</value>
-      <webElementGuid>503ef475-f134-4848-8194-4322b61a072f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
-      <type>Main</type>
-      <value>headerText</value>
-      <webElementGuid>72ac5939-12dd-4935-9f7f-b5f943ba65b3</webElementGuid>
+      <value>css-14sozj8-unf-heading e1qvo2ff3</value>
+      <webElementGuid>c7f789c9-5939-4055-98f2-3bf5e5139ddd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kategori</value>
-      <webElementGuid>71dd90c1-0f23-41cb-9108-5d467b6a6f5d</webElementGuid>
+      <value>Masuk</value>
+      <webElementGuid>4018119b-dfa0-4dc3-944a-b7ec2b7a5405</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header-main-wrapper&quot;)/div[@class=&quot;css-12jp264 e90swyx2&quot;]/div[@class=&quot;css-c4s9dq e1429ojz0&quot;]/div[@class=&quot;css-1551isn e1429ojz1&quot;]/div[@class=&quot;css-xml5xq&quot;]</value>
-      <webElementGuid>b1a4eb35-8222-40d7-8f6d-da94ff0d76fe</webElementGuid>
+      <value>/html[1]/body[@class=&quot;css-1g5w2rw&quot;]/div[6]/div[@class=&quot;css-y344pu e1nc1fa20&quot;]/article[@class=&quot;css-1f0x5lg-unf-modal e1nc1fa21&quot;]/div[@class=&quot;css-18qem4c e1nc1fa22&quot;]/div[@class=&quot;css-9z1sps&quot;]/h3[@class=&quot;css-14sozj8-unf-heading e1qvo2ff3&quot;]</value>
+      <webElementGuid>aa87f813-ce50-4f4a-af51-09c0f9ad022d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='header-main-wrapper']/div[2]/div/div/div</value>
-      <webElementGuid>57b08cfb-3293-408b-a6f2-5f96df3b1031</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Komputer &amp; Laptop'])[1]/following::h3[1]</value>
+      <webElementGuid>deab39eb-97e5-49fd-a955-74cec9597390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tokopedia Care'])[1]/following::div[4]</value>
-      <webElementGuid>2084204e-f81f-44da-9ed1-0ef0a14b2d5b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keuangan'])[1]/following::h3[1]</value>
+      <webElementGuid>6b59d0e8-08dc-409e-b97d-f7c5bc9ad711</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[1]/following::div[4]</value>
-      <webElementGuid>bf352be8-f144-4526-a8e3-204b88eab218</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar'])[1]/preceding::h3[1]</value>
+      <webElementGuid>7ec84c5b-3475-4ac1-8e9a-7ab3b20636a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/preceding::div[9]</value>
-      <webElementGuid>d76c1c66-d8c0-4039-9fee-7e8dcd2babe7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kategori']/parent::*</value>
-      <webElementGuid>50b53420-36b5-4f74-8ace-29a7fe34de94</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor HP atau Email'])[1]/preceding::h3[1]</value>
+      <webElementGuid>4447c794-da9b-4791-b9c8-664f0121f6ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div</value>
-      <webElementGuid>cdec78e9-29f4-42e7-9142-5d6dfae9eb4f</webElementGuid>
+      <value>//h3</value>
+      <webElementGuid>5cc81ffb-9a40-4214-b57e-38f193d3bb82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Kategori' or . = 'Kategori')]</value>
-      <webElementGuid>3c6cf3b5-12d7-476e-8fe3-90697e7cdae1</webElementGuid>
+      <value>//h3[(text() = 'Masuk' or . = 'Masuk')]</value>
+      <webElementGuid>671260cd-f8c2-4ea8-a7e1-d1680b348ecc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

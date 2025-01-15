@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(BASE_URL)
 
-WebUI.setText(findTestObject('HomePage_Tokopedia/div_Nomor Telepon'), PHONE_NUMBER)
+WebUI.setText(findTestObject('Tokopedia_Objects/HomePage_Tokopedia/div_Nomor Telepon'), PHONE_NUMBER)
 
-WebUI.click(findTestObject('HomePage_Tokopedia/button_Nominal'))
+WebUI.click(findTestObject('Tokopedia_Objects/HomePage_Tokopedia/button_Nominal'))
 
-WebUI.click(findTestObject('HomePage_Tokopedia/selectNominal_Button'))
+WebUI.click(findTestObject('Tokopedia_Objects/HomePage_Tokopedia/selectNominal_Button'))
 
-WebUI.click(findTestObject('HomePage_Tokopedia/button_Beli'),FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Tokopedia_Objects/HomePage_Tokopedia/button_Beli'),FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/HomePage_Tokopedia/span_Masuk ke Tokopedia'), "Masuk ke Tokopedia", FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/span_Masuk ke Tokopedia'), "Masuk ke Tokopedia", FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

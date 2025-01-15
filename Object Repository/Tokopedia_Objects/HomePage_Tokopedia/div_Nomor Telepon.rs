@@ -6,12 +6,12 @@
    <elementGuidId>845a8189-6535-4e41-b19e-10ff83cb8478</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.css-ufaufa.erj7th73</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='clientNumber']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-ufaufa.erj7th73</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

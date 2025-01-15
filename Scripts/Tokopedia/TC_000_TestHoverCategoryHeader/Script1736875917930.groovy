@@ -20,14 +20,14 @@ import org.openqa.selenium.Keys as Keys
 def dataCategory = ['CATEGORY':'rumah-tangga']
 def dataChildCategory = ['SELECTED_CHILD_CATEGORY':'rumah-tangga/dekorasi/cover-kipas-angin']
 
-def dynamicCategoryHover = TestWebUtils.makeObject(findTestObject('Object Repository/HomePage_Tokopedia/a_hoverAllCategories',dataCategory))
-def dynamicChildCategory = TestWebUtils.makeObject(findTestObject('Object Repository/HomePage_Tokopedia/a_selectChildCategories',dataChildCategory))
+def dynamicCategoryHover = TestWebUtils.makeObject(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/a_hoverAllCategories',dataCategory))
+def dynamicChildCategory = TestWebUtils.makeObject(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/a_selectChildCategories',dataChildCategory))
 
 WebUI.openBrowser(BASE_URL, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Object Repository/HomePage_Tokopedia/div_headerKategori'), FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/div_headerKategori'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage_Tokopedia/div_checkHoverCategories'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/div_checkHoverCategories'), 5, FailureHandling.STOP_ON_FAILURE)
 
 if (WebUI.verifyElementPresent(dynamicCategoryHover, 5, FailureHandling.STOP_ON_FAILURE)) {
 	WebUI.mouseOver(dynamicCategoryHover, FailureHandling.STOP_ON_FAILURE)
@@ -41,6 +41,6 @@ if (WebUI.verifyElementPresent(dynamicChildCategory, 5, FailureHandling.STOP_ON_
 	println('Child element not found!')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Category_Tokopedia/div_successPickCategory'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_successPickCategory'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()

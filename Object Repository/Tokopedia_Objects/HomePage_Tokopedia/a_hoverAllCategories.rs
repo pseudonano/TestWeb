@@ -6,11 +6,11 @@
    <elementGuidId>d185ced6-dba2-4302-9352-117c332024af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@data-testid='allCategories']//a[@href='/p/${CATEGORY}']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

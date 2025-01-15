@@ -6,12 +6,12 @@
    <elementGuidId>341fc19d-b12a-4dde-bc8d-efaf22f72109</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.css-2mp5vx-unf-btn.eg8apji0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//section[@data-testid='divHomeDigitalWidget'] //section[@data-ssr='digitalWidgetHomeSSR'] //div //div[2] //div //div[3] //button[@data-unify='Button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.css-2mp5vx-unf-btn.eg8apji0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

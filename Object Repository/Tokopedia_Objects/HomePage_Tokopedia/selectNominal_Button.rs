@@ -4,19 +4,16 @@
    <name>selectNominal_Button</name>
    <tag></tag>
    <elementGuidId>15df94f3-006f-4d09-8245-3a82b3fa9fc3</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@role='dialog'] //div //ul //li[@data-testid='Rp6.500'][1]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>36e2dcb4-899f-436f-a592-ba4a54934ff6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.css-1dmmzzh</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='__skipper']/div/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.css-1dmmzzh</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

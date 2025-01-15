@@ -6,12 +6,12 @@
    <elementGuidId>3f65f75d-4013-45c1-acde-c4b090525075</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.css-jr7vt.e83okfj1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@aria-haspopup='listbox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.css-jr7vt.e83okfj1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

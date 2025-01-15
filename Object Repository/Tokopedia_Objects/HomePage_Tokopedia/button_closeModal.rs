@@ -6,12 +6,12 @@
    <elementGuidId>50a52a08-c4be-47a8-9d7c-0f17b5bd163e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>//button[aria-label='Tutup tampilan modal']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@aria-label='Tutup tampilan modal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>//button[aria-label='Tutup tampilan modal']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

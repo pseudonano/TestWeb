@@ -26,9 +26,9 @@ Map<String,String> dataCategoryPicker = ['CATEGORY_ID':'A','DATA_TESTID':'llbcBa
 
 
 // Find the test object using the dynamic attribute  
-//def dynamicButton = findTestObject("Object Repository/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
-TestObject dynamicButton = TestWebUtils.makeObject(findTestObject('Object Repository/dynamic/dynamic_homepageCategory', dataHomepageCategory))
-TestObject categoryPicker = TestWebUtils.makeObject(findTestObject('Object Repository/dynamic/a_SelectCategory',dataCategoryPicker))
+//def dynamicButton = findTestObject("Object Repository/Tokopedia_Objects/dynamic/dynamic_homepageCategory", ['DATA_TEST_ID': definedDataTestId])  
+TestObject dynamicButton = TestWebUtils.makeObject(findTestObject('Object Repository/Tokopedia_Objects/dynamic/dynamic_homepageCategory', dataHomepageCategory))
+TestObject categoryPicker = TestWebUtils.makeObject(findTestObject('Object Repository/Tokopedia_Objects/dynamic/a_SelectCategory',dataCategoryPicker))
 
 // Perform actions on the dynamic button  
 if (WebUI.verifyElementPresent(dynamicButton, 10,FailureHandling.STOP_ON_FAILURE)) {  
@@ -43,7 +43,7 @@ if (WebUI.verifyElementPresent(categoryPicker, 5, FailureHandling.STOP_ON_FAILUR
 	println("Dynamic button not found!")
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Category_Tokopedia/div_successPickCategory'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_successPickCategory'), 5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
