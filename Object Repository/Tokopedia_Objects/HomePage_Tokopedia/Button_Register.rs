@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Register</name>
+   <name>button_Register</name>
    <tag></tag>
    <elementGuidId>7b142a2c-1438-447c-a6f8-a4c62b791c28</elementGuidId>
    <selectorCollection>
