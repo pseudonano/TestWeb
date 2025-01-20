@@ -42,7 +42,7 @@ List<WebElement> tokoXpath = parentXpath.findElements(By.xpath(dropdownXPathToko
 
 for(WebElement item:itemXpath+tokoXpath) {
 //	println(item.getText())
-	if (item.getText().toLowerCase()=='charger mobil') {
+	if (item.getText().toLowerCase()=='mobil remote control') {
 		item.click()
 		break
 	} else {
@@ -52,4 +52,4 @@ for(WebElement item:itemXpath+tokoXpath) {
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_headerSearchInfo'), 5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

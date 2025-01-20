@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Applying Filter on Search Result</description>
+   <name>TC_000_TestSeachFilter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a5f5b1e-f343-4cea-b670-fdb1be9444d6</testCaseGuid>
+</TestCaseEntity>
