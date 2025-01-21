@@ -20,7 +20,8 @@ import org.openqa.selenium.Keys as Keys
 def JENIS_TOKO = ['JENIS_TOKO':'Mall']
 def LOKASI_TOKO = ['xLOKASI_TOKO':'DKI Jakarta']
 def JUMLAH_SCROLL = 3
-def KONDISI = ['xKONDISI':'Baru']
+def KONDISI = ['xKONDISI':'Bekas']
+def DYNAMIC_RATING = ['xRATING':'Rating 4 ke atas']
 
 WebUI.callTestCase(findTestCase('Test Cases/Tokopedia/TC_000_TestSearch'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -58,6 +59,10 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_SearchResult/input_HargaMa
 def ObjKondisi = TestWebUtils.makeObject(findTestObject('Object Repository/Page_SearchResult/div_span_Kondisi',KONDISI))
 
 WebUI.click(ObjKondisi, FailureHandling.STOP_ON_FAILURE)
+
+def ObjRating = TestWebUtils.makeObject(findTestObject('Object Repository/Page_SearchResult/div_span_Rating',DYNAMIC_RATING))
+
+WebUI.click(ObjRating, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
