@@ -20,6 +20,7 @@ import org.openqa.selenium.Keys as Keys
 def JENIS_TOKO = ['JENIS_TOKO':'Mall']
 def LOKASI_TOKO = ['xLOKASI_TOKO':'DKI Jakarta']
 def JUMLAH_SCROLL = 3
+def KONDISI = ['xKONDISI':'Baru']
 
 WebUI.callTestCase(findTestCase('Test Cases/Tokopedia/TC_000_TestSearch'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -41,13 +42,23 @@ if (WebUI.verifyElementPresent(lokasiToko, 3, FailureHandling.STOP_ON_FAILURE)) 
 	println('Element Not Found!')
 }
 
-WebUI.delay(2)
-
 for (int i=0;i<JUMLAH_SCROLL;i++) {
-	WebUI.scrollFromViewportOffset(0, 0, 0, 700)
+	WebUI.scrollFromViewportOffset(0, 0, 0, 200)
 	WebUI.delay(1)
 }
 
-WebUI.delay(2)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_SearchResult/input_HargaMinimum'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_SearchResult/input_HargaMinimum'), '1000', FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/Page_SearchResult/input_HargaMinimum'), Keys.chord(Keys.ENTER))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_headerSearchInfo'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_SearchResult/input_HargaMaksimum'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_SearchResult/input_HargaMaksimum'), '999999999', FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('Object Repository/Page_SearchResult/input_HargaMaksimum'), Keys.chord(Keys.ENTER))
+
+def ObjKondisi = TestWebUtils.makeObject(findTestObject('Object Repository/Page_SearchResult/div_span_Kondisi',KONDISI))
+
+WebUI.click(ObjKondisi, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
