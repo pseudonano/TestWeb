@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 def JENIS_TOKO = ['JENIS_TOKO':'Mall']
 def LOKASI_TOKO = ['xLOKASI_TOKO':'DKI Jakarta']
 def JUMLAH_SCROLL = 3
-def KONDISI = ['xKONDISI':'Bekas']
+def KONDISI = ['xKONDISI':'Baru']
 def DYNAMIC_RATING = ['xRATING':'Rating 4 ke atas']
 
 WebUI.callTestCase(findTestCase('Test Cases/Tokopedia/TC_000_TestSearch'), null, FailureHandling.STOP_ON_FAILURE)
@@ -33,11 +33,11 @@ if (WebUI.verifyElementPresent(pilihanToko, 3, FailureHandling.STOP_ON_FAILURE))
 	println('Element Not Found!')
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SearchResult/div_checkFilterApplied'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SearchResult/div_checkFilterApplied'), 2, FailureHandling.STOP_ON_FAILURE)
 
 def lokasiToko = TestWebUtils.makeObject(findTestObject('Object Repository/Page_SearchResult/div_LokasiToko',LOKASI_TOKO))
 
-if (WebUI.verifyElementPresent(lokasiToko, 3, FailureHandling.STOP_ON_FAILURE)) {
+if (WebUI.verifyElementPresent(lokasiToko, 2, FailureHandling.STOP_ON_FAILURE)) {
 	WebUI.click(lokasiToko, FailureHandling.STOP_ON_FAILURE)
 } else {
 	println('Element Not Found!')
@@ -45,14 +45,13 @@ if (WebUI.verifyElementPresent(lokasiToko, 3, FailureHandling.STOP_ON_FAILURE)) 
 
 for (int i=0;i<JUMLAH_SCROLL;i++) {
 	WebUI.scrollFromViewportOffset(0, 0, 0, 200)
-	WebUI.delay(1)
 }
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_SearchResult/input_HargaMinimum'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_SearchResult/input_HargaMinimum'), 2, FailureHandling.STOP_ON_FAILURE)
 WebUI.setText(findTestObject('Object Repository/Page_SearchResult/input_HargaMinimum'), '1000', FailureHandling.STOP_ON_FAILURE)
 WebUI.sendKeys(findTestObject('Object Repository/Page_SearchResult/input_HargaMinimum'), Keys.chord(Keys.ENTER))
-WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_headerSearchInfo'), 5, FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_SearchResult/input_HargaMaksimum'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_headerSearchInfo'), 2, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_SearchResult/input_HargaMaksimum'), 2, FailureHandling.STOP_ON_FAILURE)
 WebUI.setText(findTestObject('Object Repository/Page_SearchResult/input_HargaMaksimum'), '999999999', FailureHandling.STOP_ON_FAILURE)
 WebUI.sendKeys(findTestObject('Object Repository/Page_SearchResult/input_HargaMaksimum'), Keys.chord(Keys.ENTER))
 
