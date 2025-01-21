@@ -28,9 +28,11 @@ String dropdownXPathToko = "//div[@data-testid='initialStateDropdown']//a//div//
 
 WebUI.comment('Given user application homepage')
 WebUI.openBrowser('https://www.tokopedia.com/')
+
 WebUI.comment('When user click search bar')
 WebUI.click(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/input_homepageSearch'), FailureHandling.STOP_ON_FAILURE)
-WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/div_checkSearchDropdown'), 5, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/div_checkSearchDropdown'), 2, FailureHandling.STOP_ON_FAILURE)
+
 WebUI.comment('And user input character')
 WebUI.setText(findTestObject('Object Repository/Tokopedia_Objects/HomePage_Tokopedia/input_homepageSearch'), textToSearch, FailureHandling.STOP_ON_FAILURE)
 // get all available suggestion
@@ -50,6 +52,4 @@ for(WebElement item:itemXpath+tokoXpath) {
 	}
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_headerSearchInfo'), 5, FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.closeBrowser()
+WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_headerSearchInfo'), 2, FailureHandling.STOP_ON_FAILURE)
