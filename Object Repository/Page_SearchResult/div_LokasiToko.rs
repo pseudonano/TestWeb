@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_LokasiToko</name>
+   <tag></tag>
+   <elementGuidId>f05916f3-d620-4270-9e67-23c37235416a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='css-1cb34wj']//*//span[contains(text(),'${xLOKASI_TOKO}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>31ba3935-a17c-40f7-b313-0ad5bec3c6ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1737431960396</value>
+      <webElementGuid>0f892265-bf86-4780-b2e2-1b9651ac744d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
