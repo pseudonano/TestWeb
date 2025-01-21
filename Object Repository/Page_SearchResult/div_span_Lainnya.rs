@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_span_Lainnya</name>
+   <tag></tag>
+   <elementGuidId>db27bf29-4909-4017-a9e9-acf33b2e61a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='css-1cb34wj']//span[contains(text(),'PreOrder')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>6c09e8c1-cab7-4aab-bd93-d443e4280222</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1737439526719</value>
+      <webElementGuid>c819cbbb-f34a-4008-a7f3-c50ec6b447c2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

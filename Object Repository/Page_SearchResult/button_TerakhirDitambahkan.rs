@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_TerakhirDitambahkan</name>
+   <tag></tag>
+   <elementGuidId>81d6e189-02a3-4593-8555-d0cbad85f494</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-testid='dSRPPriceRangeFilter']//button[contains(text(),'14 Hari')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>7c9391d8-6251-45df-81ab-9f9dbdc2de57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1737440473051</value>
+      <webElementGuid>de322622-b531-4b64-9368-ca5db0470914</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

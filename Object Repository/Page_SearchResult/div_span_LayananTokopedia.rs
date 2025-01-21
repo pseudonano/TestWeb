@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_span_LayananTokopedia</name>
+   <tag></tag>
+   <elementGuidId>0e32a3cf-6d2f-4647-aeb6-0c5bb9fb49ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='css-1cb34wj']//span[contains(text(),'Dilayani Tokopedia')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>0886056b-1ef7-4975-969a-be6c0eb4ea9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1737440371031</value>
+      <webElementGuid>03c804ca-d5c1-41a2-98a9-490756684714</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

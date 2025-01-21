@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_span_Kondisi</name>
+   <tag></tag>
+   <elementGuidId>ab5f750d-2ad7-485a-aa38-17e9ac0c93cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-testid='dSRPCondFilter']//*//span[contains(text(),'Baru')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>942849c7-9c9e-4d33-8362-480bba020bbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1737433979256</value>
+      <webElementGuid>7f91ddd4-d805-41ee-87a9-7f6e7b91ac6a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
