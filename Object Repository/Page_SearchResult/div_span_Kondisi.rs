@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@data-testid='dSRPCondFilter']//*//span[contains(text(),'Baru')]</value>
+         <value>//div[@data-testid='dSRPCondFilter']//*//span[contains(text(),'${xKONDISI}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>942849c7-9c9e-4d33-8362-480bba020bbd</webElementGuid>
+      <webElementGuid>4c31c433-9041-482c-a270-faa51c349821</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1737433979256</value>
-      <webElementGuid>7f91ddd4-d805-41ee-87a9-7f6e7b91ac6a</webElementGuid>
+      <webElementGuid>b87800c2-e462-4fcb-80a0-6ea2bef43c44</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
