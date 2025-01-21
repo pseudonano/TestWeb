@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Rating 4 ke atas')]</value>
+         <value>//span[contains(text(),'${xRATING}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>078aeeb9-ff4b-4543-a2a4-95b4d3dddb23</webElementGuid>
+      <webElementGuid>2bbba120-2078-4cee-ba9e-c576a6c4cd2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1737434129138</value>
-      <webElementGuid>accaa5e0-253c-458d-a71f-cdf027e2f37d</webElementGuid>
+      <webElementGuid>e848ba65-bf4f-4bee-bbd1-19508236c243</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
