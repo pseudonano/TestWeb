@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='css-1cb34wj']//span[contains(text(),'COD')]</value>
+         <value>//div[@class='css-1cb34wj']//span[contains(text(),'${xPENAWARAN}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>4cecac85-30b9-44d5-993f-a6e0681b1ca4</webElementGuid>
+      <webElementGuid>538c5e49-56e8-499c-9c23-1820580a6fb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1737439128136</value>
-      <webElementGuid>e82a705d-cf60-4f67-a14a-07861999ddfc</webElementGuid>
+      <webElementGuid>fb18348d-b5bb-418f-bac6-0cd612b8efc1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

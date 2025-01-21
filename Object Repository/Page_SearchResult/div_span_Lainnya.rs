@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='css-1cb34wj']//span[contains(text(),'PreOrder')]</value>
+         <value>//span[text()='${xLAINNYA}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -19,7 +19,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>DIV</value>
-      <webElementGuid>6c09e8c1-cab7-4aab-bd93-d443e4280222</webElementGuid>
+      <webElementGuid>0938550e-d719-469d-a572-92e2846c7e2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,6 +27,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>xpath1737439526719</value>
-      <webElementGuid>c819cbbb-f34a-4008-a7f3-c50ec6b447c2</webElementGuid>
+      <webElementGuid>c0b2a14f-5049-4198-b4cb-e934096fa72a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
