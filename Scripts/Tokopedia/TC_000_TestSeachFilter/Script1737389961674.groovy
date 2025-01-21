@@ -18,6 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 def JENIS_TOKO = ['JENIS_TOKO':'Mall']
+def LOKASI_TOKO = ['xLOKASI_TOKO':'DKI Jakarta']
+def JUMLAH_SCROLL = 3
 
 WebUI.callTestCase(findTestCase('Test Cases/Tokopedia/TC_000_TestSearch'), null, FailureHandling.STOP_ON_FAILURE)
 
@@ -30,5 +32,22 @@ if (WebUI.verifyElementPresent(pilihanToko, 3, FailureHandling.STOP_ON_FAILURE))
 }
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_SearchResult/div_checkFilterApplied'), 5, FailureHandling.STOP_ON_FAILURE)
+
+def lokasiToko = TestWebUtils.makeObject(findTestObject('Object Repository/Page_SearchResult/div_LokasiToko',LOKASI_TOKO))
+
+if (WebUI.verifyElementPresent(lokasiToko, 3, FailureHandling.STOP_ON_FAILURE)) {
+	WebUI.click(lokasiToko, FailureHandling.STOP_ON_FAILURE)
+} else {
+	println('Element Not Found!')
+}
+
+WebUI.delay(2)
+
+for (int i=0;i<JUMLAH_SCROLL;i++) {
+	WebUI.scrollFromViewportOffset(0, 0, 0, 700)
+	WebUI.delay(1)
+}
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
