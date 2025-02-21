@@ -42,9 +42,11 @@ WebElement parentXpath = driver.findElement(By.xpath(dropdownXPath))
 List<WebElement> itemXpath = parentXpath.findElements(By.xpath(dropdownXPathBarang))
 List<WebElement> tokoXpath = parentXpath.findElements(By.xpath(dropdownXPathToko))
 
-for(WebElement item:itemXpath+tokoXpath) {
+List<WebElement> sumItem = itemXpath+tokoXpath
+
+for(WebElement item:sumItem) {
 //	println(item.getText())
-	if (item.getText().toLowerCase()=='mobil remote control') {
+	if (item.getText().toLowerCase()==sumItem[3].getText().toLowerCase()) {
 		item.click()
 		break
 	} else {
@@ -53,3 +55,5 @@ for(WebElement item:itemXpath+tokoXpath) {
 }
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Tokopedia_Objects/Category_Tokopedia/div_headerSearchInfo'), 2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
