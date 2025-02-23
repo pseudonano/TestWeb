@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test</name>
+   <name>TC_openBrowser_accesWebPage</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>cdf97662-43fa-4c88-9357-e844e870e0b8</testCaseGuid>
+   <testCaseGuid>20c71b2e-f157-436f-b240-ea2fb62f9bb8</testCaseGuid>
 </TestCaseEntity>
