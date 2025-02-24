@@ -20,3 +20,5 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/OrangeHRM/Page_OrangeHRM/div_valCopyRight'), 0, FailureHandling.STOP_ON_FAILURE)
