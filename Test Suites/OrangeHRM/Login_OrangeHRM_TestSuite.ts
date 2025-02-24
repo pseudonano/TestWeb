@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login_OrangeHRM_TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c8b67666-697b-40ef-a668-1cb6a4a47e98</testSuiteGuid>
+   <testCaseLink>
+      <guid>64170c23-d1ee-45cc-9048-85e5c0f69c16</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHRM/CommonTestCase/TC_openAndAccessWeb</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0836b10-ab9d-4147-96a7-636060f4da77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHRM/MainTestCase/TC_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>136c5191-47d5-484e-8f50-bac86280a8cd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/OrangeHRM/LoginData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>136c5191-47d5-484e-8f50-bac86280a8cd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>b8515858-a471-4ea5-a836-ec0f9c3fd477</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>136c5191-47d5-484e-8f50-bac86280a8cd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>faaab035-1419-4b60-9dca-94ccd2e0dc2f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>136c5191-47d5-484e-8f50-bac86280a8cd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ExpectedResult</value>
+         <variableId>ab26815d-5ecb-4452-85ab-1c4eef53e14c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>26e88055-f758-4b75-8c2b-594f30786363</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/OrangeHRM/CommonTestCase/TC_closeBrowser</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
